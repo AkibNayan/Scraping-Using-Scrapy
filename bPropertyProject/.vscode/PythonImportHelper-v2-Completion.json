@@ -1,0 +1,829 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pformat",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "scrapy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scrapy",
+        "description": "scrapy",
+        "detail": "scrapy",
+        "documentation": {}
+    },
+    {
+        "label": "signals",
+        "importPath": "scrapy",
+        "description": "scrapy",
+        "isExtraImport": true,
+        "detail": "scrapy",
+        "documentation": {}
+    },
+    {
+        "label": "signals",
+        "importPath": "scrapy",
+        "description": "scrapy",
+        "isExtraImport": true,
+        "detail": "scrapy",
+        "documentation": {}
+    },
+    {
+        "label": "LinkExtractor",
+        "importPath": "scrapy.linkextractors",
+        "description": "scrapy.linkextractors",
+        "isExtraImport": true,
+        "detail": "scrapy.linkextractors",
+        "documentation": {}
+    },
+    {
+        "label": "CrawlSpider",
+        "importPath": "scrapy.spiders",
+        "description": "scrapy.spiders",
+        "isExtraImport": true,
+        "detail": "scrapy.spiders",
+        "documentation": {}
+    },
+    {
+        "label": "Rule",
+        "importPath": "scrapy.spiders",
+        "description": "scrapy.spiders",
+        "isExtraImport": true,
+        "detail": "scrapy.spiders",
+        "documentation": {}
+    },
+    {
+        "label": "is_item",
+        "importPath": "itemadapter",
+        "description": "itemadapter",
+        "isExtraImport": true,
+        "detail": "itemadapter",
+        "documentation": {}
+    },
+    {
+        "label": "ItemAdapter",
+        "importPath": "itemadapter",
+        "description": "itemadapter",
+        "isExtraImport": true,
+        "detail": "itemadapter",
+        "documentation": {}
+    },
+    {
+        "label": "ItemAdapter",
+        "importPath": "itemadapter",
+        "description": "itemadapter",
+        "isExtraImport": true,
+        "detail": "itemadapter",
+        "documentation": {}
+    },
+    {
+        "label": "is_item",
+        "importPath": "itemadapter",
+        "description": "itemadapter",
+        "isExtraImport": true,
+        "detail": "itemadapter",
+        "documentation": {}
+    },
+    {
+        "label": "ItemAdapter",
+        "importPath": "itemadapter",
+        "description": "itemadapter",
+        "isExtraImport": true,
+        "detail": "itemadapter",
+        "documentation": {}
+    },
+    {
+        "label": "ItemAdapter",
+        "importPath": "itemadapter",
+        "description": "itemadapter",
+        "isExtraImport": true,
+        "detail": "itemadapter",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "Selector",
+        "importPath": "scrapy.selector",
+        "description": "scrapy.selector",
+        "isExtraImport": true,
+        "detail": "scrapy.selector",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "myenv.Scripts.jp",
+        "description": "myenv.Scripts.jp",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument('expression')\n    parser.add_argument('-f', '--filename',\n                        help=('The filename containing the input data.  '\n                              'If a filename is not given then data is '\n                              'read from stdin.'))\n    parser.add_argument('--ast', action='store_true',\n                        help=('Pretty print the AST, do not search the data.'))\n    args = parser.parse_args()",
+        "detail": "myenv.Scripts.jp",
+        "documentation": {}
+    },
+    {
+        "label": "BpropertySpider",
+        "kind": 6,
+        "importPath": "property.spiders.bproperty",
+        "description": "property.spiders.bproperty",
+        "peekOfCode": "class BpropertySpider(CrawlSpider):\n    name = \"bproperty\"\n    start_urls = [\"https://www.bproperty.com/en/dhaka/properties-for-rent/\"]\n    rules = (Rule(LinkExtractor(restrict_xpaths='//li[@aria-label=\"Listing\"]/article/div[1]/a'), callback=\"parse_item\", follow=True),)\n    def parse_item(self, response):\n        yield {\n            'title': response.xpath('//h1[@class=\"fcca24e0 fontCompensation\"]/text()').get(),\n            'area': response.xpath('//span[@class=\"fc2d1086\"]/span/text()').get(),\n            'bed': response.xpath('//span[@aria-label=\"Beds\"]/span[@class=\"fc2d1086\"]/text()').get(),\n            'bath': response.xpath('//span[@aria-label=\"Baths\"]/span[@class=\"fc2d1086\"]/text()').get(),",
+        "detail": "property.spiders.bproperty",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyItem",
+        "kind": 6,
+        "importPath": "property.items",
+        "description": "property.items",
+        "peekOfCode": "class PropertyItem(scrapy.Item):\n    # define the fields for your item here like:\n    # name = scrapy.Field()\n    pass",
+        "detail": "property.items",
+        "documentation": {}
+    },
+    {
+        "label": "PropertySpiderMiddleware",
+        "kind": 6,
+        "importPath": "property.middlewares",
+        "description": "property.middlewares",
+        "peekOfCode": "class PropertySpiderMiddleware:\n    # Not all methods need to be defined. If a method is not defined,\n    # scrapy acts as if the spider middleware does not modify the\n    # passed objects.\n    @classmethod\n    def from_crawler(cls, crawler):\n        # This method is used by Scrapy to create your spiders.\n        s = cls()\n        crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)\n        return s",
+        "detail": "property.middlewares",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyDownloaderMiddleware",
+        "kind": 6,
+        "importPath": "property.middlewares",
+        "description": "property.middlewares",
+        "peekOfCode": "class PropertyDownloaderMiddleware:\n    # Not all methods need to be defined. If a method is not defined,\n    # scrapy acts as if the downloader middleware does not modify the\n    # passed objects.\n    @classmethod\n    def from_crawler(cls, crawler):\n        # This method is used by Scrapy to create your spiders.\n        s = cls()\n        crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)\n        return s",
+        "detail": "property.middlewares",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyPipeline",
+        "kind": 6,
+        "importPath": "property.pipelines",
+        "description": "property.pipelines",
+        "peekOfCode": "class PropertyPipeline:\n    def process_item(self, item, spider):\n        return item",
+        "detail": "property.pipelines",
+        "documentation": {}
+    },
+    {
+        "label": "BOT_NAME",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "BOT_NAME = \"property\"\nSPIDER_MODULES = [\"property.spiders\"]\nNEWSPIDER_MODULE = \"property.spiders\"\n# Crawl responsibly by identifying yourself (and your website) on the user-agent\nUSER_AGENT = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"\n# Obey robots.txt rules\nROBOTSTXT_OBEY = False\n# Configure maximum concurrent requests performed by Scrapy (default: 16)\n#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SPIDER_MODULES",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "SPIDER_MODULES = [\"property.spiders\"]\nNEWSPIDER_MODULE = \"property.spiders\"\n# Crawl responsibly by identifying yourself (and your website) on the user-agent\nUSER_AGENT = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"\n# Obey robots.txt rules\nROBOTSTXT_OBEY = False\n# Configure maximum concurrent requests performed by Scrapy (default: 16)\n#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)\n# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "NEWSPIDER_MODULE",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "NEWSPIDER_MODULE = \"property.spiders\"\n# Crawl responsibly by identifying yourself (and your website) on the user-agent\nUSER_AGENT = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"\n# Obey robots.txt rules\nROBOTSTXT_OBEY = False\n# Configure maximum concurrent requests performed by Scrapy (default: 16)\n#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)\n# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay\n# See also autothrottle settings and docs",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USER_AGENT",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "USER_AGENT = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"\n# Obey robots.txt rules\nROBOTSTXT_OBEY = False\n# Configure maximum concurrent requests performed by Scrapy (default: 16)\n#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)\n# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay\n# See also autothrottle settings and docs\n#DOWNLOAD_DELAY = 3\n# The download delay setting will honor only one of:",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROBOTSTXT_OBEY",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "ROBOTSTXT_OBEY = False\n# Configure maximum concurrent requests performed by Scrapy (default: 16)\n#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)\n# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay\n# See also autothrottle settings and docs\n#DOWNLOAD_DELAY = 3\n# The download delay setting will honor only one of:\n#CONCURRENT_REQUESTS_PER_DOMAIN = 16\n#CONCURRENT_REQUESTS_PER_IP = 16",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#CONCURRENT_REQUESTS",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)\n# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay\n# See also autothrottle settings and docs\n#DOWNLOAD_DELAY = 3\n# The download delay setting will honor only one of:\n#CONCURRENT_REQUESTS_PER_DOMAIN = 16\n#CONCURRENT_REQUESTS_PER_IP = 16\n# Disable cookies (enabled by default)\n#COOKIES_ENABLED = False",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#DOWNLOAD_DELAY",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#DOWNLOAD_DELAY = 3\n# The download delay setting will honor only one of:\n#CONCURRENT_REQUESTS_PER_DOMAIN = 16\n#CONCURRENT_REQUESTS_PER_IP = 16\n# Disable cookies (enabled by default)\n#COOKIES_ENABLED = False\n# Disable Telnet Console (enabled by default)\n#TELNETCONSOLE_ENABLED = False\n# Override the default request headers:\n#DEFAULT_REQUEST_HEADERS = {",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#CONCURRENT_REQUESTS_PER_DOMAIN",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#CONCURRENT_REQUESTS_PER_DOMAIN = 16\n#CONCURRENT_REQUESTS_PER_IP = 16\n# Disable cookies (enabled by default)\n#COOKIES_ENABLED = False\n# Disable Telnet Console (enabled by default)\n#TELNETCONSOLE_ENABLED = False\n# Override the default request headers:\n#DEFAULT_REQUEST_HEADERS = {\n#    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\",\n#    \"Accept-Language\": \"en\",",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#CONCURRENT_REQUESTS_PER_IP",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#CONCURRENT_REQUESTS_PER_IP = 16\n# Disable cookies (enabled by default)\n#COOKIES_ENABLED = False\n# Disable Telnet Console (enabled by default)\n#TELNETCONSOLE_ENABLED = False\n# Override the default request headers:\n#DEFAULT_REQUEST_HEADERS = {\n#    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\",\n#    \"Accept-Language\": \"en\",\n#}",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#COOKIES_ENABLED",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#COOKIES_ENABLED = False\n# Disable Telnet Console (enabled by default)\n#TELNETCONSOLE_ENABLED = False\n# Override the default request headers:\n#DEFAULT_REQUEST_HEADERS = {\n#    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\",\n#    \"Accept-Language\": \"en\",\n#}\n# Enable or disable spider middlewares\n# See https://docs.scrapy.org/en/latest/topics/spider-middleware.html",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#TELNETCONSOLE_ENABLED",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#TELNETCONSOLE_ENABLED = False\n# Override the default request headers:\n#DEFAULT_REQUEST_HEADERS = {\n#    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\",\n#    \"Accept-Language\": \"en\",\n#}\n# Enable or disable spider middlewares\n# See https://docs.scrapy.org/en/latest/topics/spider-middleware.html\n#SPIDER_MIDDLEWARES = {\n#    \"property.middlewares.PropertySpiderMiddleware\": 543,",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#DEFAULT_REQUEST_HEADERS",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#DEFAULT_REQUEST_HEADERS = {\n#    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\",\n#    \"Accept-Language\": \"en\",\n#}\n# Enable or disable spider middlewares\n# See https://docs.scrapy.org/en/latest/topics/spider-middleware.html\n#SPIDER_MIDDLEWARES = {\n#    \"property.middlewares.PropertySpiderMiddleware\": 543,\n#}\n# Enable or disable downloader middlewares",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#SPIDER_MIDDLEWARES",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#SPIDER_MIDDLEWARES = {\n#    \"property.middlewares.PropertySpiderMiddleware\": 543,\n#}\n# Enable or disable downloader middlewares\n# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html\n#DOWNLOADER_MIDDLEWARES = {\n#    \"property.middlewares.PropertyDownloaderMiddleware\": 543,\n#}\n# Enable or disable extensions\n# See https://docs.scrapy.org/en/latest/topics/extensions.html",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#DOWNLOADER_MIDDLEWARES",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#DOWNLOADER_MIDDLEWARES = {\n#    \"property.middlewares.PropertyDownloaderMiddleware\": 543,\n#}\n# Enable or disable extensions\n# See https://docs.scrapy.org/en/latest/topics/extensions.html\n#EXTENSIONS = {\n#    \"scrapy.extensions.telnet.TelnetConsole\": None,\n#}\n# Configure item pipelines\n# See https://docs.scrapy.org/en/latest/topics/item-pipeline.html",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#EXTENSIONS",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#EXTENSIONS = {\n#    \"scrapy.extensions.telnet.TelnetConsole\": None,\n#}\n# Configure item pipelines\n# See https://docs.scrapy.org/en/latest/topics/item-pipeline.html\n#ITEM_PIPELINES = {\n#    \"property.pipelines.PropertyPipeline\": 300,\n#}\n# Enable and configure the AutoThrottle extension (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/autothrottle.html",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ITEM_PIPELINES",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#ITEM_PIPELINES = {\n#    \"property.pipelines.PropertyPipeline\": 300,\n#}\n# Enable and configure the AutoThrottle extension (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/autothrottle.html\n#AUTOTHROTTLE_ENABLED = True\n# The initial download delay\n#AUTOTHROTTLE_START_DELAY = 5\n# The maximum download delay to be set in case of high latencies\n#AUTOTHROTTLE_MAX_DELAY = 60",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#AUTOTHROTTLE_ENABLED",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#AUTOTHROTTLE_ENABLED = True\n# The initial download delay\n#AUTOTHROTTLE_START_DELAY = 5\n# The maximum download delay to be set in case of high latencies\n#AUTOTHROTTLE_MAX_DELAY = 60\n# The average number of requests Scrapy should be sending in parallel to\n# each remote server\n#AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0\n# Enable showing throttling stats for every response received:\n#AUTOTHROTTLE_DEBUG = False",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#AUTOTHROTTLE_START_DELAY",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#AUTOTHROTTLE_START_DELAY = 5\n# The maximum download delay to be set in case of high latencies\n#AUTOTHROTTLE_MAX_DELAY = 60\n# The average number of requests Scrapy should be sending in parallel to\n# each remote server\n#AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0\n# Enable showing throttling stats for every response received:\n#AUTOTHROTTLE_DEBUG = False\n# Enable and configure HTTP caching (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#AUTOTHROTTLE_MAX_DELAY",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#AUTOTHROTTLE_MAX_DELAY = 60\n# The average number of requests Scrapy should be sending in parallel to\n# each remote server\n#AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0\n# Enable showing throttling stats for every response received:\n#AUTOTHROTTLE_DEBUG = False\n# Enable and configure HTTP caching (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings\n#HTTPCACHE_ENABLED = True\n#HTTPCACHE_EXPIRATION_SECS = 0",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#AUTOTHROTTLE_TARGET_CONCURRENCY",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0\n# Enable showing throttling stats for every response received:\n#AUTOTHROTTLE_DEBUG = False\n# Enable and configure HTTP caching (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings\n#HTTPCACHE_ENABLED = True\n#HTTPCACHE_EXPIRATION_SECS = 0\n#HTTPCACHE_DIR = \"httpcache\"\n#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#AUTOTHROTTLE_DEBUG",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#AUTOTHROTTLE_DEBUG = False\n# Enable and configure HTTP caching (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings\n#HTTPCACHE_ENABLED = True\n#HTTPCACHE_EXPIRATION_SECS = 0\n#HTTPCACHE_DIR = \"httpcache\"\n#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#HTTPCACHE_ENABLED",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#HTTPCACHE_ENABLED = True\n#HTTPCACHE_EXPIRATION_SECS = 0\n#HTTPCACHE_DIR = \"httpcache\"\n#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#HTTPCACHE_EXPIRATION_SECS",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#HTTPCACHE_EXPIRATION_SECS = 0\n#HTTPCACHE_DIR = \"httpcache\"\n#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#HTTPCACHE_DIR",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#HTTPCACHE_DIR = \"httpcache\"\n#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#HTTPCACHE_IGNORE_HTTP_CODES",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#HTTPCACHE_STORAGE",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REQUEST_FINGERPRINTER_IMPLEMENTATION",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "REQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TWISTED_REACTOR",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "TWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "FEED_EXPORT_ENCODING",
+        "kind": 5,
+        "importPath": "property.settings",
+        "description": "property.settings",
+        "peekOfCode": "FEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "property.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PropertySpider",
+        "kind": 6,
+        "importPath": "propertylist.propertylist.spiders.property_spider",
+        "description": "propertylist.propertylist.spiders.property_spider",
+        "peekOfCode": "class PropertySpider(scrapy.Spider):\n    name = 'property'\n    start_urls = ['https://www.bproperty.com/en/property/details-5617383.html']\n    def __init__(self, *args, **kwargs):\n        super(PropertySpider, self).__init__(*args, **kwargs)\n        self.driver = webdriver.Chrome()\n    def parse(self, response):\n        self.driver.get(response.url)\n        # Wait for the amenities button to be clickable and click it\n        amenities_button = WebDriverWait(self.driver, 10).until(",
+        "detail": "propertylist.propertylist.spiders.property_spider",
+        "documentation": {}
+    },
+    {
+        "label": "PropertylistItem",
+        "kind": 6,
+        "importPath": "propertylist.propertylist.items",
+        "description": "propertylist.propertylist.items",
+        "peekOfCode": "class PropertylistItem(scrapy.Item):\n    # define the fields for your item here like:\n    # name = scrapy.Field()\n    pass",
+        "detail": "propertylist.propertylist.items",
+        "documentation": {}
+    },
+    {
+        "label": "PropertylistSpiderMiddleware",
+        "kind": 6,
+        "importPath": "propertylist.propertylist.middlewares",
+        "description": "propertylist.propertylist.middlewares",
+        "peekOfCode": "class PropertylistSpiderMiddleware:\n    # Not all methods need to be defined. If a method is not defined,\n    # scrapy acts as if the spider middleware does not modify the\n    # passed objects.\n    @classmethod\n    def from_crawler(cls, crawler):\n        # This method is used by Scrapy to create your spiders.\n        s = cls()\n        crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)\n        return s",
+        "detail": "propertylist.propertylist.middlewares",
+        "documentation": {}
+    },
+    {
+        "label": "PropertylistDownloaderMiddleware",
+        "kind": 6,
+        "importPath": "propertylist.propertylist.middlewares",
+        "description": "propertylist.propertylist.middlewares",
+        "peekOfCode": "class PropertylistDownloaderMiddleware:\n    # Not all methods need to be defined. If a method is not defined,\n    # scrapy acts as if the downloader middleware does not modify the\n    # passed objects.\n    @classmethod\n    def from_crawler(cls, crawler):\n        # This method is used by Scrapy to create your spiders.\n        s = cls()\n        crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)\n        return s",
+        "detail": "propertylist.propertylist.middlewares",
+        "documentation": {}
+    },
+    {
+        "label": "PropertylistPipeline",
+        "kind": 6,
+        "importPath": "propertylist.propertylist.pipelines",
+        "description": "propertylist.propertylist.pipelines",
+        "peekOfCode": "class PropertylistPipeline:\n    def process_item(self, item, spider):\n        return item",
+        "detail": "propertylist.propertylist.pipelines",
+        "documentation": {}
+    },
+    {
+        "label": "BOT_NAME",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "BOT_NAME = \"propertylist\"\nSPIDER_MODULES = [\"propertylist.spiders\"]\nNEWSPIDER_MODULE = \"propertylist.spiders\"\n# Crawl responsibly by identifying yourself (and your website) on the user-agent\nUSER_AGENT = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"\n# Obey robots.txt rules\nROBOTSTXT_OBEY = False\n# Configure maximum concurrent requests performed by Scrapy (default: 16)\n#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SPIDER_MODULES",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "SPIDER_MODULES = [\"propertylist.spiders\"]\nNEWSPIDER_MODULE = \"propertylist.spiders\"\n# Crawl responsibly by identifying yourself (and your website) on the user-agent\nUSER_AGENT = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"\n# Obey robots.txt rules\nROBOTSTXT_OBEY = False\n# Configure maximum concurrent requests performed by Scrapy (default: 16)\n#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)\n# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "NEWSPIDER_MODULE",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "NEWSPIDER_MODULE = \"propertylist.spiders\"\n# Crawl responsibly by identifying yourself (and your website) on the user-agent\nUSER_AGENT = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"\n# Obey robots.txt rules\nROBOTSTXT_OBEY = False\n# Configure maximum concurrent requests performed by Scrapy (default: 16)\n#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)\n# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay\n# See also autothrottle settings and docs",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USER_AGENT",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "USER_AGENT = \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\"\n# Obey robots.txt rules\nROBOTSTXT_OBEY = False\n# Configure maximum concurrent requests performed by Scrapy (default: 16)\n#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)\n# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay\n# See also autothrottle settings and docs\n#DOWNLOAD_DELAY = 3\n# The download delay setting will honor only one of:",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROBOTSTXT_OBEY",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "ROBOTSTXT_OBEY = False\n# Configure maximum concurrent requests performed by Scrapy (default: 16)\n#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)\n# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay\n# See also autothrottle settings and docs\n#DOWNLOAD_DELAY = 3\n# The download delay setting will honor only one of:\n#CONCURRENT_REQUESTS_PER_DOMAIN = 16\n#CONCURRENT_REQUESTS_PER_IP = 16",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#CONCURRENT_REQUESTS",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#CONCURRENT_REQUESTS = 32\n# Configure a delay for requests for the same website (default: 0)\n# See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay\n# See also autothrottle settings and docs\n#DOWNLOAD_DELAY = 3\n# The download delay setting will honor only one of:\n#CONCURRENT_REQUESTS_PER_DOMAIN = 16\n#CONCURRENT_REQUESTS_PER_IP = 16\n# Disable cookies (enabled by default)\n#COOKIES_ENABLED = False",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#DOWNLOAD_DELAY",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#DOWNLOAD_DELAY = 3\n# The download delay setting will honor only one of:\n#CONCURRENT_REQUESTS_PER_DOMAIN = 16\n#CONCURRENT_REQUESTS_PER_IP = 16\n# Disable cookies (enabled by default)\n#COOKIES_ENABLED = False\n# Disable Telnet Console (enabled by default)\n#TELNETCONSOLE_ENABLED = False\n# Override the default request headers:\n#DEFAULT_REQUEST_HEADERS = {",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#CONCURRENT_REQUESTS_PER_DOMAIN",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#CONCURRENT_REQUESTS_PER_DOMAIN = 16\n#CONCURRENT_REQUESTS_PER_IP = 16\n# Disable cookies (enabled by default)\n#COOKIES_ENABLED = False\n# Disable Telnet Console (enabled by default)\n#TELNETCONSOLE_ENABLED = False\n# Override the default request headers:\n#DEFAULT_REQUEST_HEADERS = {\n#    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\",\n#    \"Accept-Language\": \"en\",",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#CONCURRENT_REQUESTS_PER_IP",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#CONCURRENT_REQUESTS_PER_IP = 16\n# Disable cookies (enabled by default)\n#COOKIES_ENABLED = False\n# Disable Telnet Console (enabled by default)\n#TELNETCONSOLE_ENABLED = False\n# Override the default request headers:\n#DEFAULT_REQUEST_HEADERS = {\n#    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\",\n#    \"Accept-Language\": \"en\",\n#}",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#COOKIES_ENABLED",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#COOKIES_ENABLED = False\n# Disable Telnet Console (enabled by default)\n#TELNETCONSOLE_ENABLED = False\n# Override the default request headers:\n#DEFAULT_REQUEST_HEADERS = {\n#    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\",\n#    \"Accept-Language\": \"en\",\n#}\n# Enable or disable spider middlewares\n# See https://docs.scrapy.org/en/latest/topics/spider-middleware.html",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#TELNETCONSOLE_ENABLED",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#TELNETCONSOLE_ENABLED = False\n# Override the default request headers:\n#DEFAULT_REQUEST_HEADERS = {\n#    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\",\n#    \"Accept-Language\": \"en\",\n#}\n# Enable or disable spider middlewares\n# See https://docs.scrapy.org/en/latest/topics/spider-middleware.html\n#SPIDER_MIDDLEWARES = {\n#    \"propertylist.middlewares.PropertylistSpiderMiddleware\": 543,",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#DEFAULT_REQUEST_HEADERS",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#DEFAULT_REQUEST_HEADERS = {\n#    \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\",\n#    \"Accept-Language\": \"en\",\n#}\n# Enable or disable spider middlewares\n# See https://docs.scrapy.org/en/latest/topics/spider-middleware.html\n#SPIDER_MIDDLEWARES = {\n#    \"propertylist.middlewares.PropertylistSpiderMiddleware\": 543,\n#}\n# Enable or disable downloader middlewares",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#SPIDER_MIDDLEWARES",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#SPIDER_MIDDLEWARES = {\n#    \"propertylist.middlewares.PropertylistSpiderMiddleware\": 543,\n#}\n# Enable or disable downloader middlewares\n# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html\n#DOWNLOADER_MIDDLEWARES = {\n#    \"propertylist.middlewares.PropertylistDownloaderMiddleware\": 543,\n#}\n# Enable or disable extensions\n# See https://docs.scrapy.org/en/latest/topics/extensions.html",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#DOWNLOADER_MIDDLEWARES",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#DOWNLOADER_MIDDLEWARES = {\n#    \"propertylist.middlewares.PropertylistDownloaderMiddleware\": 543,\n#}\n# Enable or disable extensions\n# See https://docs.scrapy.org/en/latest/topics/extensions.html\n#EXTENSIONS = {\n#    \"scrapy.extensions.telnet.TelnetConsole\": None,\n#}\n# Configure item pipelines\n# See https://docs.scrapy.org/en/latest/topics/item-pipeline.html",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#EXTENSIONS",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#EXTENSIONS = {\n#    \"scrapy.extensions.telnet.TelnetConsole\": None,\n#}\n# Configure item pipelines\n# See https://docs.scrapy.org/en/latest/topics/item-pipeline.html\n#ITEM_PIPELINES = {\n#    \"propertylist.pipelines.PropertylistPipeline\": 300,\n#}\n# Enable and configure the AutoThrottle extension (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/autothrottle.html",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ITEM_PIPELINES",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#ITEM_PIPELINES = {\n#    \"propertylist.pipelines.PropertylistPipeline\": 300,\n#}\n# Enable and configure the AutoThrottle extension (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/autothrottle.html\n#AUTOTHROTTLE_ENABLED = True\n# The initial download delay\n#AUTOTHROTTLE_START_DELAY = 5\n# The maximum download delay to be set in case of high latencies\n#AUTOTHROTTLE_MAX_DELAY = 60",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#AUTOTHROTTLE_ENABLED",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#AUTOTHROTTLE_ENABLED = True\n# The initial download delay\n#AUTOTHROTTLE_START_DELAY = 5\n# The maximum download delay to be set in case of high latencies\n#AUTOTHROTTLE_MAX_DELAY = 60\n# The average number of requests Scrapy should be sending in parallel to\n# each remote server\n#AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0\n# Enable showing throttling stats for every response received:\n#AUTOTHROTTLE_DEBUG = False",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#AUTOTHROTTLE_START_DELAY",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#AUTOTHROTTLE_START_DELAY = 5\n# The maximum download delay to be set in case of high latencies\n#AUTOTHROTTLE_MAX_DELAY = 60\n# The average number of requests Scrapy should be sending in parallel to\n# each remote server\n#AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0\n# Enable showing throttling stats for every response received:\n#AUTOTHROTTLE_DEBUG = False\n# Enable and configure HTTP caching (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#AUTOTHROTTLE_MAX_DELAY",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#AUTOTHROTTLE_MAX_DELAY = 60\n# The average number of requests Scrapy should be sending in parallel to\n# each remote server\n#AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0\n# Enable showing throttling stats for every response received:\n#AUTOTHROTTLE_DEBUG = False\n# Enable and configure HTTP caching (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings\n#HTTPCACHE_ENABLED = True\n#HTTPCACHE_EXPIRATION_SECS = 0",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#AUTOTHROTTLE_TARGET_CONCURRENCY",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0\n# Enable showing throttling stats for every response received:\n#AUTOTHROTTLE_DEBUG = False\n# Enable and configure HTTP caching (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings\n#HTTPCACHE_ENABLED = True\n#HTTPCACHE_EXPIRATION_SECS = 0\n#HTTPCACHE_DIR = \"httpcache\"\n#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#AUTOTHROTTLE_DEBUG",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#AUTOTHROTTLE_DEBUG = False\n# Enable and configure HTTP caching (disabled by default)\n# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings\n#HTTPCACHE_ENABLED = True\n#HTTPCACHE_EXPIRATION_SECS = 0\n#HTTPCACHE_DIR = \"httpcache\"\n#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#HTTPCACHE_ENABLED",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#HTTPCACHE_ENABLED = True\n#HTTPCACHE_EXPIRATION_SECS = 0\n#HTTPCACHE_DIR = \"httpcache\"\n#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#HTTPCACHE_EXPIRATION_SECS",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#HTTPCACHE_EXPIRATION_SECS = 0\n#HTTPCACHE_DIR = \"httpcache\"\n#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#HTTPCACHE_DIR",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#HTTPCACHE_DIR = \"httpcache\"\n#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#HTTPCACHE_IGNORE_HTTP_CODES",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#HTTPCACHE_IGNORE_HTTP_CODES = []\n#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#HTTPCACHE_STORAGE",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "#HTTPCACHE_STORAGE = \"scrapy.extensions.httpcache.FilesystemCacheStorage\"\n# Set settings whose default value is deprecated to a future-proof value\nREQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REQUEST_FINGERPRINTER_IMPLEMENTATION",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "REQUEST_FINGERPRINTER_IMPLEMENTATION = \"2.7\"\nTWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TWISTED_REACTOR",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "TWISTED_REACTOR = \"twisted.internet.asyncioreactor.AsyncioSelectorReactor\"\nFEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    },
+    {
+        "label": "FEED_EXPORT_ENCODING",
+        "kind": 5,
+        "importPath": "propertylist.propertylist.settings",
+        "description": "propertylist.propertylist.settings",
+        "peekOfCode": "FEED_EXPORT_ENCODING = \"utf-8\"",
+        "detail": "propertylist.propertylist.settings",
+        "documentation": {}
+    }
+]
